@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Crafty Girls", cursive;
+}
+
+
+:root {
+    --main-color: #f3e9d6;
+    --black: #13131a;
+    --orange: #cc6a2e;
+    --green: #0f7a60;
+    --purple: #6b3d7a;
+    --second-color: #c8a15a;
+    --border: 0.1rem solid var(--second-color)
+    font-size: 09px;
+    }  
+
+body{
+   .crafty-girls-regular {
+  font-family: "Crafty Girls", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+   background-color: var(--main-color);
+}
+
+img {
+  width: 150px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção original para evitar distorções */
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    background-color: var(--main-color);
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: var(--orange)
+}
+
+.navbar a:hover {
+    color: var(--green);
+    border-bottom: var(--border);
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+}   
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons img,
+.icons svg {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    display: block;
+}
+
+.icons img:hover,
+.icons svg:hover {
+   color: var(--green);
+   height: 40px;
+ }
+
+ .home-container{
+    color:var(--purple);
+    font-size: 1.5rem;
+ }
+
+ 
