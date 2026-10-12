@@ -102,17 +102,158 @@ header section {
     font-size: 1.5rem;
 }
 
-.title{
+.title {
     font-size: 2rem;
     color: var(--purple);
     text-align: center;
     margin-bottom: 1rem;
 }
 
- 
-.about .row .content p{
+
+.about .row .content p {
     color: var(--orange);
-    padding:1rem 0;
+    padding: 1rem 0;
     line-height: 1.8rem;
 }
 
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.boys .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    cursor: pointer;
+}
+
+.boys .box-container .box:hover {
+    background-color: var(--second-color);
+}
+
+/* >* altera todos .box */
+.boys .box-container .box:hover>* {
+    color: var(--purple);
+}
+
+.boys .box-container .box img {
+    height: 10rem;
+}
+
+.boys .box-container .box p {
+    color: var(--orange);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.boys .box-container .box price {
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+
+.girls .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    cursor: pointer;
+}
+
+.girls .box-container .box:hover {
+    background-color: var(--second-color);
+}
+
+/* >* altera todos .box */
+.girls .box-container .box:hover>* {
+    color: var(--purple);
+}
+
+.girls .box-container .box img {
+    height: 10rem;
+}
+
+.girls .box-container .box p {
+    color: var(--orange);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.girls .box-container .box price {
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+
+.parents .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    cursor: pointer;
+}
+
+.parents .box-container .box:hover {
+    background-color: var(--second-color);
+}
+
+/* >* altera todos .box */
+.parents .box-container .box:hover>* {
+    color: var(--purple);
+}
+
+.parents .box-container .box img {
+    height: 10rem;
+}
+
+.parents .box-container .box p {
+    color: var(--orange);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.parents .box-container .box price {
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+
+.review .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 3rem;
+    cursor: pointer;
+}
+
+.review .box-container .box p {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    line-height: 1.8rem;
+}
+
+.review .box-container .box .review-image {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.footer {
+    text-align: center; 
+}
+
+.footer .social.icons {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    }
+
+.footer .social.icons img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    color: var(--green)
+}
+
+.footer .social.icons img:hover {
+    background-color: var(--green);
+    height: 40px;
+}
