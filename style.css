@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -18,23 +18,24 @@
     --green: #0f7a60;
     --purple: #6b3d7a;
     --second-color: #c8a15a;
-    --border: 0.1rem solid var(--second-color)
-    font-size: 09px;
-    }  
-
-body{
-   .crafty-girls-regular {
-  font-family: "Crafty Girls", cursive;
-  font-weight: 400;
-  font-style: normal;
+    --border: 0.1rem solid var(--second-color) font-size: 09px;
 }
 
-   background-color: var(--main-color);
+body {
+    .crafty-girls-regular {
+        font-family: "Crafty Girls", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    background-color: var(--main-color);
 }
 
 img {
-  width: 150px; /* Define a largura da imagem */
-  height: auto; /* Mantém a proporção original para evitar distorções */
+    width: 150px;
+    /* Define a largura da imagem */
+    height: auto;
+    /* Mantém a proporção original para evitar distorções */
 }
 
 section {
@@ -74,7 +75,7 @@ header section {
     border-bottom: var(--border);
     padding-bottom: 0.5rem;
     font-size: 1.3rem;
-}   
+}
 
 .icons {
     display: flex;
@@ -92,13 +93,26 @@ header section {
 
 .icons img:hover,
 .icons svg:hover {
-   color: var(--green);
-   height: 40px;
- }
+    color: var(--green);
+    height: 40px;
+}
 
- .home-container{
-    color:var(--purple);
+.home-container {
+    color: var(--purple);
     font-size: 1.5rem;
- }
+}
+
+.title{
+    font-size: 2rem;
+    color: var(--purple);
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
  
+.about .row .content p{
+    color: var(--orange);
+    padding:1rem 0;
+    line-height: 1.8rem;
+}
+
